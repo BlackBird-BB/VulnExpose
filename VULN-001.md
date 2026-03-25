@@ -38,7 +38,7 @@ node build/index.js \
   --suPassword=RootPass789
 ```
 
-![image-20260324231955542](\imgs\image-20260324231955542.png)
+![image-20260324231955542](imgs/image-20260324231955542.png)
 
 Check local process information on another terminal:
 
@@ -50,7 +50,7 @@ cat /proc/$PID/cmdline | tr '\0' ' '
 ps -fp "$PID"
 ```
 
-![image-20260324232001052](\imgs\image-20260324232001052.png)
+![image-20260324232001052](/imgs/image-20260324232001052.png)
 
 Observe that:
 

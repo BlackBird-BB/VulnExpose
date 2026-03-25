@@ -70,7 +70,7 @@ time.sleep(120)
 PY
 ```
 
-![image-20260324232032539](.\imgs\image-20260324232032539.png)
+![image-20260324232032539](imgs/image-20260324232032539.png)
 
 Check the relevant processes on the remote machine:
 ```shell
@@ -85,7 +85,7 @@ done
 ps -efww | grep -E 'printf|sudo -p|sleep 120' | grep -v grep
 ```
 
-![image-20260324233352521](.\imgs\image-20260324233352521.png)
+![image-20260324233352521](/imgs/image-20260324233352521.png)
 
 Observe that：
 

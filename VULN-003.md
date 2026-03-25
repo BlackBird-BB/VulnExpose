@@ -71,7 +71,7 @@ cat <<'EOF' | node build/index.js --host=127.0.0.1 --port=2222 --user=test --pas
 EOF
 ```
 
-![image-20260324232423632](.\imgs\image-20260324232423632.png)
+![image-20260324232423632](imgs/image-20260324232423632.png)
 
 Check if the root file was created successfully:
 ```shell
@@ -79,7 +79,7 @@ ls -l /root/mcp_poc_vuln005.txt
 cat /root/mcp_poc_vuln005.txt
 ```
 
-![image-20260324232740831](.\imgs\image-20260324232740831.png)
+![image-20260324232740831](imgs/image-20260324232740831.png)
 
 - `/root/mcp_poc_vuln005.txt` was successfully created
 - The file content shows that the execution identity is `uid=0(root)`
